@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ABAB457A-8967-4548-8F3A-4E8F9BD4C68B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>WebCruiserWVS</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <EmbeddedResource Include="WebCruiserWVS\Properties\Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+    </EmbeddedResource>
+    <Reference Include="Interop.SHDocVw, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="System.Web" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WebCruiserWVS\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\FormSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\FormBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\WebCruiserWVS.cs" />
+    <Compile Include="WebCruiserWVS\FormScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\Properties\Settings.cs" />
+    <Compile Include="WebCruiserWVS\FormSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\FormCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\WCRSetting.cs" />
+    <Compile Include="WebCruiserWVS\Program.cs" />
+    <Compile Include="WebCruiserWVS\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\FormCookie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\FormXSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebCruiserWVS\Properties\Resources.cs" />
+    <Compile Include="WebCruiserWVS\RequestType.cs" />
+    <Compile Include="WebCruiserWVS\DBType.cs" />
+    <Compile Include="WebCruiserWVS\InjectionType.cs" />
+    <Compile Include="WebCruiserWVS\BlindType.cs" />
+    <Compile Include="WebCruiserWVS\TaskStatus.cs" />
+    <Compile Include="WebCruiserWVS\WebSite.cs" />
+    <Compile Include="WebCruiserWVS\Reg.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebCruiserWVS\FormReport.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormXSS.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormCode.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormSQL.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormSetting.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormMain.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormCookie.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormAdmin.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormAbout.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormScanner.resx" />
+    <EmbeddedResource Include="WebCruiserWVS\FormBrowser.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Image_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Image_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Image_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Image_23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Image_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\Image_10.png" />
+  </ItemGroup>
+</Project>

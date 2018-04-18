@@ -1,0 +1,10 @@
+2012/12/8 星期六 0:00:01  POST  http://www.baidu.com/gaoji/preferences.html^SU=&NR=10&ime=  Search URL1 Null
+2012/12/8 星期六 0:00:01  POST  http://www.baidu.com/s^rsv_bp=0&rsv_spt=3&s_btn s_btn_h=??????&wd=  Search URL1 Null
+2012/12/8 星期六 0:01:41  POST  http://www.baidu.com/s^rsv_spt=3&s_btn s_btn_h=??????&wd=!S!WCRTESTINPUT000000!E!&rsv_bp=0  Integer URL1 Null
+2012/12/8 星期六 0:03:21  POST  http://www.baidu.com/s^rsv_spt=3&s_btn s_btn_h=??????&wd=!S!WCRTESTINPUT000000!E!&rsv_bp=0  String URL1 Null
+2012/12/8 星期六 0:05:01  POST  http://www.baidu.com/s^rsv_spt=3&s_btn s_btn_h=??????&wd=!S!WCRTESTINPUT000000!E!&rsv_bp=  Search URL1 Null
+2012/12/8 星期六 0:06:41  POST  http://www.baidu.com/s^s_btn s_btn_h=??????&wd=!S!WCRTESTINPUT000000!E!&rsv_bp=0&rsv_spt=3  Integer URL1 Null
+2012/12/8 星期六 0:08:21  POST  http://www.baidu.com/s^s_btn s_btn_h=??????&wd=!S!WCRTESTINPUT000000!E!&rsv_bp=0&rsv_spt=3  String URL1 Null
+2012/12/8 星期六 0:10:01  POST  http://www.baidu.com/s^s_btn s_btn_h=??????&wd=!S!WCRTESTINPUT000000!E!&rsv_bp=0&rsv_spt=  Search URL1 Null
+2012/12/8 星期六 0:11:41  POST  http://www.baidu.com/s^wd=!S!WCRTESTINPUT000000!E!&rsv_bp=0&rsv_spt=3&s_btn s_btn_h=??????  String URL1 Null
+2012/12/8 星期六 0:13:21  POST  http://www.baidu.com/s^wd=!S!WCRTESTINPUT000000!E!&rsv_bp=0&rsv_spt=3&s_btn s_btn_h=  Search URL1 Null
